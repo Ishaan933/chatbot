@@ -1,5 +1,4 @@
-llama-index==0.6.5  # Replace with a version that supports GPTVectorStoreIndex
-langchain==0.0.203
 streamlit
 PyPDF2
-pyngrok
+llama-index==0.6.5
+langchain==0.0.203
