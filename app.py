@@ -2,7 +2,8 @@ with open("app.py", "w") as f:
     f.write("""
 import streamlit as st
 from PyPDF2 import PdfReader
-from llama_index import GPTVectorStoreIndex, Document
+from llama_index.indices import GPTVectorStoreIndex
+from llama_index import Document
 
 # Extract Text from PDF
 def extract_text_with_page_numbers(pdf_path):
